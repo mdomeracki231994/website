@@ -3,121 +3,62 @@
 
 {% block content %}
     <section class="page-section" id="about">
-    <div class="container">
-        <div class="text-center p-5">
-            <h2 class="section-heading text-uppercase">About</h2>
-        </div>
-        <div class="row d-flex justify-content-center pb-4">
-            <div class="col-lg-4">
-                <div class="card" style="width: 18rem;">
-                  <img src="{% static 'assets/img/about/1.jpg'%}" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
+                <div class="container">
+                    <div class="text-center p-5">
+                        <h2 class="section-heading text-uppercase">About</h2>
+                    </div>
+                    <div class="row d-flex justify-content-center pb-4">
+                        <div class="col-lg-4">
+                            <div class="card" style="width: 18rem;">
+                              <img src="{% static 'assets/img/about/1.jpg'%}" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <p class="card-text">We are a team of dreamers, creatives, and builders, we would like to use our talents to build your next project!</p>
+                              </div>
+                            </div>
+                        </div>
+                         <div class="col-lg-4">
+                            <div class="card" style="width: 18rem;">
+                              <img src="{% static 'assets/img/about/2.jpg'%}" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <p class="card-text">We love our technology, from data driven applications to help your business grow to WordPress websites that allow you to be in control! </p>
+                              </div>
+                            </div>
+                        </div>
+                         <div class="col-lg-4">
+                            <div class="card" style="width: 18rem;">
+                              <img src="{% static 'assets/img/about/3.jpg'%}" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <p class="card-text">We are an agile team, ready to deliver high guilty software at any budget. We love what we do and what to help you grow as a business!</p>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="row d-flex justify-content-center">
+                    <div class="col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                          <img src="{% static 'assets/img/about/4.jpg'%}" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          </div>
+                        </div>
+                    </div>
+                     <div class="col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                          <img src="{% static 'assets/img/about/6.jpg'%}" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          </div>
+                        </div>
+                    </div>
+                     <div class="col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                          <img src="{% static 'assets/img/about/6.jpg'%}" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-             <div class="col-lg-4">
-                <div class="card" style="width: 18rem;">
-                  <img src="{% static 'assets/img/about/2.jpg'%}" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-                </div>
-            </div>
-             <div class="col-lg-4">
-                <div class="card" style="width: 18rem;">
-                  <img src="{% static 'assets/img/about/3.jpg'%}" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-                </div>
-            </div>
-        </div>
-                <div class="row d-flex justify-content-center">
-            <div class="col-lg-4">
-                <div class="card" style="width: 18rem;">
-                  <img src="{% static 'assets/img/about/4.jpg'%}" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-                </div>
-            </div>
-             <div class="col-lg-4">
-                <div class="card" style="width: 18rem;">
-                  <img src="{% static 'assets/img/about/4.jpg'%}" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-                </div>
-            </div>
-             <div class="col-lg-4">
-                <div class="card" style="width: 18rem;">
-                  <img src="{% static 'assets/img/about/4.jpg'%}" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-                </div>
-            </div>
-        </div>
-    </div>
-{#            <div class="container">#}
-{#                <div class="text-center">#}
-{#                    <h2 class="section-heading text-uppercase">About</h2>#}
-{#                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>#}
-{#                </div>#}
-{#                <ul class="timeline">#}
-{#                    <li>#}
-{#                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..." /></div>#}
-{#                        <div class="timeline-panel">#}
-{#                            <div class="timeline-heading">#}
-{#                                <h4>2009-2011</h4>#}
-{#                                <h4 class="subheading">Our Humble Beginnings</h4>#}
-{#                            </div>#}
-{#                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>#}
-{#                        </div>#}
-{#                    </li>#}
-{#                    <li class="timeline-inverted">#}
-{#                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="..." /></div>#}
-{#                        <div class="timeline-panel">#}
-{#                            <div class="timeline-heading">#}
-{#                                <h4>March 2011</h4>#}
-{#                                <h4 class="subheading">An Agency is Born</h4>#}
-{#                            </div>#}
-{#                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>#}
-{#                        </div>#}
-{#                    </li>#}
-{#                    <li>#}
-{#                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="..." /></div>#}
-{#                        <div class="timeline-panel">#}
-{#                            <div class="timeline-heading">#}
-{#                                <h4>December 2015</h4>#}
-{#                                <h4 class="subheading">Transition to Full Service</h4>#}
-{#                            </div>#}
-{#                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>#}
-{#                        </div>#}
-{#                    </li>#}
-{#                    <li class="timeline-inverted">#}
-{#                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." /></div>#}
-{#                        <div class="timeline-panel">#}
-{#                            <div class="timeline-heading">#}
-{#                                <h4>July 2020</h4>#}
-{#                                <h4 class="subheading">Phase Two Expansion</h4>#}
-{#                            </div>#}
-{#                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>#}
-{#                        </div>#}
-{#                    </li>#}
-{#                    <li class="timeline-inverted">#}
-{#                        <div class="timeline-image">#}
-{#                            <h4>#}
-{#                                Be Part#}
-{#                                <br />#}
-{#                                Of Our#}
-{#                                <br />#}
-{#                                Story!#}
-{#                            </h4>#}
-{#                        </div>#}
-{#                    </li>#}
-{#                </ul>#}
-{#            </div>#}
         </section>
 {% endblock content %}
