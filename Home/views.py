@@ -26,7 +26,6 @@ def team(request):
 
 
 def contact(request):
-    print('Was hit')
     if request.method == 'POST':
         name = request.POST.get('user_name')
         email = request.POST.get('user_email')
@@ -36,12 +35,4 @@ def contact(request):
         # alert_email(message,email)
     return render(request, 'Home/contact.html')
 
-# TODO Create a email alert for when a potential client fills out the form.
-# def alert_email(message, email):
-#     send_mail(
-#         'New contact',
-#         message,
-#         email,
-#         ['domerackimark@gmail.com'],
-#         fail_silently=False,
-#     )
+
